@@ -1,0 +1,144 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    width: 1200px;
+    height: 100%;
+    grid-template-columns: 1fr 350px;
+    gap: 10px;
+}
+
+:root{
+    --bg: #2A2C2F;
+    --primary: #2A2C2F;
+    --invert_bg: #2A2C2F;
+    --invert_primary: #ffffff;
+
+    --radius: 5px;
+    --button_radius: 2px;
+}
+
+
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    margin-top: 10px;
+}
+@media (max-width: 1200px) {
+    .container{
+        width: 1000px;
+        grid-template-columns: 1fr 300px;
+    }
+    .des{
+        grid-template-columns: 1fr;
+        padding-bottom: 5px;
+        min-height: 150px;
+    }
+
+    .image__des{
+        height: 100%;
+    }
+
+    .des__title{
+        font-size: 24px;
+    }
+
+    .title{
+        font-size: 70px;
+    }
+    
+    .intro__title{
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 768px;
+    }
+
+    .des{
+        grid-template-columns: 1fr;
+        padding-bottom: 15px;
+        min-height: 150px;
+    }
+
+    .image__des{
+        height: 20vw;
+    }
+
+    .des__title{
+        font-size: 22px;
+    } 
+
+    .title{
+        font-size: 55px;
+    }
+
+    .intro__title{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 400px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 1fr auto;
+    }
+
+    .des{
+        grid-template-columns: 1fr;
+    }
+
+    .image__des{
+        height: 25vw;
+    }
+
+    .des__title{
+        font-size: 20px;
+    } 
+
+    p{
+        font-size: 15px;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .intro__title{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 100%;
+    }
+
+    .des{
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    }
+
+    .image__des{
+        height: 35vw;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .intro__title{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,56 @@
+h2, h1, p, .link, .url, .paragraph, .subtitle, .copyright, .intro__title, .intro__des, .intro__text, span, .span1, .about__text, .about__caption{
+    color: #ffffff;
+    font-family: Inter; 
+    word-wrap: break-word;
+}
+p, .link, .paragraph, .subtitle{
+    font-size: 18px;
+}
+
+p, .link, .url, .paragraph, .copyright, .intro__des, .intro__text, span, .about__caption{
+    font-weight: 400;
+}
+
+.intro__des, .intro__text, span, .span1{
+    height: auto;
+}
+
+
+
+p{ 
+    line-height: 29.34px; 
+}
+
+.url{
+    color: #AAAAAA; 
+    font-size: 12px; 
+    line-height: 20.40px; 
+    letter-spacing: 2.40px;
+}
+
+.link{
+    font-size: 18px; 
+    text-decoration: underline; 
+    line-height: 22px; 
+}
+
+.website{
+    width: 100%; height: 100%; position: relative;
+}
+
+.des{
+    width: 100%;
+}
+
+.paragraph{
+    line-height: 26px;
+}
+
+.image__des{
+    margin-bottom: 15px;
+}
+
+.des__title{
+    font-weight: 500;
+    margin-bottom: 5px;
+}

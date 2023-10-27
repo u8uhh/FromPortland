@@ -1,0 +1,14 @@
+.block{
+    width: 1200px;
+    height: 100%;
+    padding: 10px;
+    margin: auto;
+    color: var(--text_color);
+    background: var(--bg_color);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: start;
+    gap: 10px;
+    position: relative;
+}
+

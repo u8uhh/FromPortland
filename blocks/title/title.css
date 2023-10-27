@@ -1,0 +1,18 @@
+.title{
+    font-size: 96px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 8.95px;
+    position: relative;
+    text-align: center;
+    /*&:after{
+        content: '';
+        position: absolute;
+        width: 10vw;
+        bottom: 0;
+        height: 1px;
+        left: 50%;
+        background-color: #ffffff;
+        margin: 0px 0px 0px 80px;
+    }*/
+}
